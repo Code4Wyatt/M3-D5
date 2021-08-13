@@ -1,0 +1,224 @@
+/*nav{
+    background-color: black;
+    padding: 20px;
+    padding-left: 10px;
+    max-width: 200px;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 2;
+    color: white;
+}*/
+
+nav ul {
+    position: absolute;
+    left: -30px;
+    top: 320px;
+    height: 500px;
+    max-height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 269px;
+    max-height: 250px;
+    background-color: black;
+  }
+  
+nav a{
+    line-height: 12px;
+}
+
+  nav {
+    background-color: black;
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(34, 28, 28);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(117, 110, 110) !important;
+}
+
+.homeTxt {
+    position: relative;
+    left: 15px;
+    top: 5px;
+    font-weight: bold;
+}
+.searchTxt {
+    position: relative;
+    left: 25px;
+    top: 5px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.libraryTxt {
+    position: relative;
+    left: 25px;
+    top: 5px;
+    font-weight: bold;
+  }
+
+.logoPlaylist {
+    position: relative;
+    top: 10px;
+    left: 23px;
+    max-width: 20px;
+    max-height: 20px; 
+}
+
+.createPlaylistTxt {
+    position: relative;
+    left: 25px;
+    font-weight: bold;
+}
+
+.logoSpotifyHeart {
+    position: relative;
+    top: 10px;
+    left: 23px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.likedSongsTxt {
+    position: relative;
+    left: 25px;
+    font-weight: bold;
+}
+
+.logoInstall {
+    position: relative;
+    top: 520px;
+    left: 23px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.install {
+    position: absolute;
+    left: 35px;
+    top: 815px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fallImg {
+    position: relative;
+    left: 230px !important;
+}
+
+a {
+    color: rgb(192, 192, 192) !important;
+  }
+
+body{
+    background-color: #121212;
+}
+
+.logo {
+    position: relative;
+    max-width: 130px;
+    left: 20px;
+}
+
+
+ul{
+    list-style: none;
+}   
+
+.card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+h6{
+    text-align: right;
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.logoHome {
+    position: relative;
+    top: 10px;
+    left: 18px;
+    max-width: 30px;
+    max-height: 30px;
+  }
+.logoSearch {
+    position: relative;
+    top: 18px;
+    left: 22px;
+    max-width: 20px;
+    max-height: 20px;
+  }
+.logoLibrary {
+    position: relative;
+    top: 14px;
+    left: 23px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.main{
+    margin-left: 245px;
+    margin-right: 50px;
+}
+
+.media{
+    color: white;
+}
+
+.table{
+    color: white;
+}
+
+.table tr :hover{
+    background-color: grey;
+}
+
+.table td{
+    border: none;
+}
+
+.a :hover{
+    background-color: grey;
+}
+
+.userSect {
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    z-index: 3;
+}
+
+.card{
+    background-color: #282828;
+    color: white;
+}
+
+.mediaText {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    margin: 0;
+}

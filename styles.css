@@ -1,0 +1,902 @@
+@media only screen and (max-width: 1900px) {
+
+
+  .card {
+    max-width: 288px !important;
+  }
+
+  .cardBg {
+    max-width: 1560px;
+  }
+}
+
+@media only screen and (min-width: 1460px) and (max-width: 1770px) {
+ 
+  .rollingstones,
+  .foof
+   {
+    display: none !important;
+  }
+  .card-img-top-recently {
+    max-width: 130%;
+  }
+  .kasabian {
+    position: fixed;
+    left: 1164px;
+    top: 225px !important;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 225px !important;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 569px;
+    top: 225px !important;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 865px;
+    top: 225px !important;
+  }
+  }
+  .card-text-recently {
+    max-width: 70%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1460px) {
+  
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+
+  .card-img-top-recently {
+    max-width: 120%;
+  }
+  .card-text-recently {
+    max-width: 70%;
+  }
+  
+
+  
+}
+@media only screen and (min-width: 1280px) and (max-width: 1460px) {
+ 
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1260px) {
+ 
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+  .card {
+    max-width: 288px !important;
+  }
+  
+}
+@media only screen and (min-width: 1245px) and (max-width: 1380px) {
+ 
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie {
+    display: none !important;
+  }
+  .card {
+    max-width: 288px !important;
+  }
+  .card-text-recently {
+    max-width: 70%;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 1545px) {
+  
+  .rollingstones,
+  .foof,
+  .qotsa,
+  .icecube,
+  .steve, .qotsa, .megadeth {
+    display: none !important;
+  }
+  .card {
+    max-width: 235px !important;
+  }
+
+  .cardBg {
+    max-width: 119px;
+  }
+  .cardTopImg {
+    min-width: 90px;
+    max-width: 90px;
+    position: relative;
+    top: 2px;
+  }
+
+  .card-img-top-recently {
+    max-width: 105% !important;
+    position: relative;
+    right: 6px;
+  }
+
+  
+
+  .card-title {
+    max-width: 55%;
+  }
+  .playButton {
+    position: fixed;
+    left: 500px !important;
+  }
+
+  .progressBar {
+    display: none;
+  }
+
+  .startTime, .endTime, .forwardButton, .rewindButton {
+    display: none;
+  }
+  .card-text-recently {
+    max-width: 55%;
+  }
+
+  .cardText {
+    left: 100px !important;
+    top: -60px !important;
+  }
+
+  .kasabian {
+    position: fixed;
+    left: 270px;
+    top: 195px !important;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 225px !important;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 516px;
+    top: 225px !important;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 760px;
+    top: 225px !important;
+  }
+
+  .kasabian {
+    position: fixed;
+    left: 1005px;
+    top: 225px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1155px) {
+  
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie,
+  .qotsa,
+  .icecube,
+  
+  .steve,
+  .megadeth {
+    display: none !important;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 180px;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 520px;
+    top: 180px;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 770px;
+    top: 180px;
+  }
+  .playButton {
+    position: fixed;
+    left: 500px !important;
+  }
+
+  .progressBar {
+    display: none;
+  }
+
+  .startTime, .endTime, .forwardButton, .rewindButton {
+    display: none;
+  }
+
+  .card {
+    max-width: 240px !important;
+  }
+
+  .goodMorningOptions {
+    max-width: 85%;
+  }
+
+  .cardText {
+    left: 100px !important;
+    top: -60px !important;
+  }
+
+  
+}
+@media only screen and (min-width: 400px) and (max-width: 1025px) {
+ 
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie,
+  .qotsa,
+  .icecube,
+  .nwa,
+  .gorillaz,
+  .steve,
+  .megadeth, .beatles, .damageplan {
+    display: none !important;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 180px;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 520px;
+    top: 180px;
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 770px;
+    top: 180px;
+  }
+
+  .card {
+    max-width: 240px !important;
+  }
+
+  .goodMorningOptions {
+    max-width: 85%;
+  }
+
+  .cardText {
+    left: 100px !important;
+    top: -60px !important;
+  }
+
+  
+}
+@media only screen and (min-width: 400px) and (max-width: 924px) {
+  
+  .rollingstones,
+  .foof,
+  .kasabian,
+  .biggie,
+  .qotsa,
+  .icecube,
+  .nwa,
+  .gorillaz,
+  .steve,
+  .megadeth, .beatles, .damageplan, .jameroquai, .kanye {
+    display: none !important;
+  }
+
+  
+
+  .playButton {
+    position: fixed;
+    left: 500px !important;
+  }
+
+  .progressBar {
+    display: none;
+  }
+
+  .startTime, .endTime, .forwardButton, .rewindButton {
+    display: none;
+  }
+
+  .korn {
+    position: fixed;
+    left: 270px;
+    top: 180px;
+  }
+
+  .skindred {
+    position: fixed;
+    left: 520px;
+    top: 180px;
+   
+  }
+
+  .damageplan {
+    position: fixed;
+    left: 770px;
+    top: 180px;
+  }
+
+  .card {
+    max-width: 240px !important;
+  }
+
+  .goodMorningOptions {
+    max-width: 85%;
+  }
+
+  .cardText {
+    left: 100px !important;
+    top: -60px !important;
+  }
+
+ 
+
+}
+::-webkit-scrollbar {
+  background-color: rgb(34, 28, 28);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(117, 110, 110) !important;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.7595413165266106) 86%,
+    rgba(69, 2, 2, 0.9444152661064426) 100%
+  );
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.directionButtonLeft {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+}
+.directionButtonRight {
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.arrowLeft {
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+}
+.arrowRight {
+  position: relative;
+  bottom: 15px;
+  left: 8px;
+}
+
+.topMenu {
+  position: absolute;
+  top: 25px;
+  left: 200px;
+}
+.logo {
+  position: relative;
+  max-width: 130px;
+  left: 20px;
+}
+.logoHome {
+  position: relative;
+  top: 10px;
+  left: 18px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.homeTxt {
+  position: relative;
+  left: 15px;
+  top: 5px;
+  font-weight: bold;
+}
+
+.logoSearch {
+  position: relative;
+  top: 18px;
+  left: 22px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.searchTxt {
+  position: relative;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
+}
+
+.logoLibrary {
+  position: relative;
+  top: 14px;
+  left: 23px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.libraryTxt {
+  position: relative;
+  left: 25px;
+  top: 5px;
+  font-weight: bold;
+}
+
+.logoPlaylist {
+  position: relative;
+  top: 10px;
+  left: 23px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.createPlaylistTxt {
+  position: relative;
+  left: 25px;
+  font-weight: bold;
+}
+
+.logoSpotifyHeart {
+  position: relative;
+  top: 10px;
+  left: 23px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.likedSongsTxt {
+  position: relative;
+  left: 25px;
+  font-weight: bold;
+}
+.logoInstall {
+  position: relative;
+  top: 520px;
+  left: 23px;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+nav ul {
+  position: absolute;
+  left: -30px;
+  top: 320px;
+  height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 269px;
+  max-height: 600px;
+  background-color: black;
+  
+}
+
+nav {
+  background-color: black;
+  width: 240px;
+  height: 860px;
+  position: fixed;
+}
+
+a {
+  color: rgb(192, 192, 192) !important;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+.install {
+  position: absolute;
+  left: 35px;
+  top: 815px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.topNav {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+
+.arrows a {
+  color: rgb(255, 255, 255) !important;
+  width: 40px;
+}
+.arrows a:hover {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+}
+
+.arrows {
+  font-size: 40px;
+  width: 80px;
+}
+
+.userSect {
+  position: fixed;
+  top: 1vh;
+  right: 1vh;
+}
+
+.col-lg-2 {
+  max-width: 100vh !important;
+}
+.userImg {
+  max-width: 25px;
+  border-radius: 50%;
+}
+
+.dropdown {
+  background: url(/Assets/vs.png);
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  border-radius: 50% !important;
+}
+
+.btndropdown {
+  background-color: black !important;
+  border-style: none !important;
+}
+
+.goodMorningTxt {
+  position: absolute;
+  left: 250px;
+  top: 80px;
+  color: white;
+  font-size: 30px;
+}
+
+.goodMorningOptions {
+  position: absolute;
+  left: 265px;
+  top: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.card {
+  position: relative;
+  max-height: 90px !important;
+  width: 310px !important;
+  background-color: rgba(102, 100, 95, 0.253) !important;
+  color: white;
+}
+
+.cardPlay {
+  position: relative;
+  bottom: 30px;
+  left: 130px !important;
+  width: 40px !important;
+  height: 40px;
+  border-radius: 50% !important;
+  background-color: green;
+  display: none;
+}
+
+.cardPlayBtn {
+  background-color: green !important;
+}
+
+.playButtonPng {
+  position: relative;
+  top: 0px;
+  right: 3px;
+  height: 30px;
+}
+.cardHover:hover {
+  background-color: rgba(163, 163, 163, 0.363);
+  text-decoration: none;
+}
+
+.cardBg {
+  position: relative;
+  background-color: rgba(70, 69, 69, 0.253) !important;
+  height: 255px;
+  width: 95% !important;
+  padding: 10px;
+  border-radius: 4px;
+}
+.cardBg:hover {
+  text-decoration: none;
+  background-color: rgba(83, 81, 81, 0.363) !important;
+}
+
+.cardTopImg {
+  max-width: 90px;
+  height: 85px !important;
+}
+
+.cardText {
+  position: relative;
+  top: 35%;
+  right: 30%;
+  width: 150px;
+  left: -35px;
+  font-weight: bold;
+}
+
+.col-sm {
+  flex-basis: 0px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  margin-bottom: 10px;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.recentlyPlayedTxt {
+  position: absolute;
+  top: 340px;
+  left: 255px;
+  color: white;
+  font-size: 30px;
+}
+
+.recentlyPlayedOptions {
+  position: absolute;
+  top: 385px;
+  left: 265px;
+}
+
+.card-title {
+  position: relative;
+  top: 5px;
+}
+.card-img-top-recently {
+  width: 160%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-text-recently {
+  color: grey;
+  margin-right: 10px;
+}
+
+.card-body-recently {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: -0.75rem;
+  width: 180%;
+}
+
+.container-fluid-recently {
+  width: 85%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  width: 85% !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.showsToTryTxt {
+  position: absolute;
+  top: 660px;
+  left: 255px;
+  color: white;
+  font-size: 30px;
+}
+
+.showsToTryTxt > p {
+  font-weight: normal !important;
+  font-size: 15px;
+  color: grey;
+}
+
+.showsToTryOptions {
+  position: absolute;
+  top: 735px;
+  left: 260px;
+  margin-bottom: 1000px;
+}
+
+.seeAllRecently {
+  color: white;
+  position: absolute;
+  right: 45px;
+  top: 350px;
+  font-weight: bold;
+}
+
+.seeAllShowToTry {
+  color: white;
+  position: absolute;
+  right: 45px;
+  top: 700px;
+  font-weight: bold;
+}
+
+.seeMore {
+  position: absolute;
+  bottom: 10px;
+  z-index: 3;
+}
+
+
+
+.footer {
+  position: fixed !important;
+  left: 0;
+  height: 80px;
+  bottom: 0 !important;
+  width: 100%;
+  background-color: rgb(22, 20, 20);
+  color: white !important;
+  text-align: center;
+}
+
+.playerImg {
+  position: absolute;
+  max-height: 50px;
+  top: 15px;
+  left: 35px;
+  margin-bottom: 3px;
+}
+
+.playerTrack {
+  position: relative;
+  left: 70px;
+  top: 5px;
+}
+
+.playerIcons {
+  position: relative;
+  left: 330px;
+}
+
+.artistName {
+  color: grey;
+  position: absolute;
+  left: 8px;
+}
+
+.playerHeart {
+  max-height: 20px;
+  position: absolute;
+  top: 30px;
+  right: 250px;
+}
+
+.playerPages {
+  max-height: 20px;
+  position: absolute;
+  top: 30px;
+  right: 220px;
+}
+
+.playButton {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  max-height: 40px;
+}
+
+.rewindButton {
+  position: absolute;
+  left: 47%;
+  top: 20px;
+  max-height: 20px;
+}
+
+.forwardButton {
+  position: absolute;
+  left: 54%;
+  top: 20px;
+  max-height: 20px;
+}
+
+.startTime {
+  position: absolute;
+  left: 500px;
+}
+
+.progressBar {
+  position: absolute;
+  left: 600px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.endTime {
+  position: absolute;
+  right: 500px;
+}
+
+.playlistPlayButton {
+  position: absolute;
+  right: 240px;
+  top: 28px;
+  height: 25px;
+}
+
+.playlistDevicesButton {
+  position: absolute;
+  right: 210px;
+  top: 30px;
+  height: 20px;
+}
+
+.playlistVolButton {
+  position: absolute;
+  right: 180px;
+  top: 30px;
+  height: 20px;
+}
+
+.slidecontainer {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+
+.slider {
+  -webkit-appearance: green;
+  color: green;
+}
+/* Album Page 
+
+.main{
+  /* background-image: linear-gradient( 179.4deg,  rgba(132,56,122,1) 14.6%, rgba(190,24,49,1) 104.7% ); */
+/* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+} */
