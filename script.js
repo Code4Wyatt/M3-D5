@@ -91,6 +91,21 @@ window.onload = function() {
         });
       };
 
+
+      function search(query) {
+        if (query.length < 3) {
+          filteredBooks = books;
+          displayBooks();
+          return;
+        }
+
+        filteredBooks = books.filter((book) =>
+          book.title.toLowerCase().includes(query.toLowerCase())
+        );
+
+        console.log(filteredBooks);
+        displayBooks(filteredBooks);
+      }
 /** <div class="mainSection">
     <div class="container-fluid">
       <div class="container goodMorningTxt">
