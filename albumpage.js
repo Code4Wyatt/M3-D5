@@ -9,7 +9,7 @@ window.onload = () => {
       getalbums = albums;
 
       displayAlbum(albums);
-      console.log(albums.title);
+      console.log(albums);
     })
     .catch((err) => {
       console.log(err);
