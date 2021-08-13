@@ -105,7 +105,11 @@
   }
 }
 @media only screen and (min-width: 550px) and (max-width: 1545px) {
-  
+  body {
+    background-color: aqua !important;
+  }
+
+
   .rollingstones,
   .foof,
   .qotsa,
@@ -166,15 +170,15 @@
   }
 
   .korn {
-    position: fixed;
+    position: relative;
     left: 270px;
-    top: 225px !important;
+    top: 5px !important;
   }
 
   .skindred {
-    position: fixed;
+    position: re;
     left: 516px;
-    top: 225px !important;
+    top: 5px !important;
   }
 
   .damageplan {
@@ -191,7 +195,9 @@
 }
 
 @media only screen and (min-width: 400px) and (max-width: 1155px) {
-  
+  body {
+    background-color: rgb(44, 199, 16) !important;
+  }
   .rollingstones,
   .foof,
   .kasabian,
@@ -250,7 +256,9 @@
   
 }
 @media only screen and (min-width: 400px) and (max-width: 1025px) {
- 
+  body {
+    background-color: rgb(65, 16, 199) !important;
+  }
   .rollingstones,
   .foof,
   .kasabian,
@@ -297,9 +305,11 @@
 
   
 }
-@media only screen and (min-width: 400px) and (max-width: 924px) {
-  
-  .rollingstones,
+@media only screen and (min-width: 400px) and (max-width: 1974px) {
+  body {
+    background-color: rgb(65, 16, 199) !important;
+  }
+  /* .rollingstones,
   .foof,
   .kasabian,
   .biggie,
@@ -310,7 +320,7 @@
   .steve,
   .megadeth, .beatles, .damageplan, .jameroquai, .kanye {
     display: none !important;
-  }
+  } */
 
   
 
@@ -328,9 +338,9 @@
   }
 
   .korn {
-    position: fixed;
-    left: 270px;
-    top: 180px;
+    position: relative;
+    left: -1000px;
+    top: 100px !important;
   }
 
   .skindred {
@@ -604,7 +614,9 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+ .search {
+   z-index: 2;
+ }
 
 .card {
   position: relative;
