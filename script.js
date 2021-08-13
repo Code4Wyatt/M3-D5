@@ -67,7 +67,19 @@ function search() {
 
       // console.log(artist.innerHTML);
       artistNames.push(artist.innerHTML);
-
+      return `<a class="cardBg" href="#"><div class="card" style="width: 100px !important">
+      <img
+        class="card-img-top-recently"
+        src="/Assets/log.jfif"
+        alt="Card image cap"
+      />
+      <div class="card-body-recently">
+        <h5 class="card-title">Lamb of God</h5>
+        <p class="card-text-recently">Wrath</p>
+      </div>
+    </div>
+  </div></a>
+      `
   }
   console.log(artistNames)
 }
