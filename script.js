@@ -1,5 +1,6 @@
 let albums = []
 let error = false;
+let artistNames =[]
 
 function searchDeezer(query) {
     fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=" + query, {
@@ -51,11 +52,34 @@ function AlbumsRow(title, albumsHTML) {
   </div>
   <div class="container-fluid-recently recentlyPlayedOptions">
     <div class="row row-cols-8">
-      
+
         ${albumsHTML}
-      
+
     </div>
   </div>`;
+}
+
+
+
+function search() {
+  const artists = document.querySelectorAll(".card-title");
+  for (let artist of artists) {
+
+      // console.log(artist.innerHTML);
+      artistNames.push(artist.innerHTML);
+
+  }
+  console.log(artistNames)
+}
+
+function deleteItem(asin) {
+  const index = shoppingCartList.findIndex((book) => book.asin === asin);
+
+  if (index !== -1) {
+    shoppingCartList.splice(index, 1);
+  }
+
+  refreshShoppingCartList();
 }
 
 
@@ -65,11 +89,11 @@ window.onload = function() {
     searchDeezer("Metallica");
     // searchDeezer("Behemoth");
     // searchDeezer("Eminem");
-  
+
     const renderLink = document.querySelector("#render");
     renderLink.addEventListener('click', function() {
         alert("Render is clicked!");
-        let pageContent = document.querySelector(".mainSection");
+        let pageContent = document.querySelector(".mainSection");  // targeting main section
         let pageContentHTML = "";
         pageContent.childNodes.forEach((node, index) => {
             if (index !== 1) {
@@ -97,7 +121,7 @@ window.onload = function() {
         });
       };
 
-    
+
 
 
 
