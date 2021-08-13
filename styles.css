@@ -629,6 +629,15 @@ p {
   color: white;
 }
 
+.album-titles {
+  position: absolute;
+  left: 250px;
+  top: 80px;
+  color: white;
+  font-size: 30px;
+
+}
+
 .cardPlay {
   position: relative;
   bottom: 30px;
