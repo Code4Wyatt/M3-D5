@@ -77,28 +77,27 @@ window.onload = function() {
             }
           });
           albums.forEach((albumResult) => {
-            let rowContent = "";
             const title = albumResult.title;
             const data = albumResult.albums;
-         
-
-            data.forEach((result) => {
-              const title = result.short_title;
-              const cover = result.album.cover_medium;
-              const album = { cover, title };
-              rowContent += SingleAlbum(album);
+            pageContentHTML += AlbumsRow(title, '');
           });
-           pageContentHTML += AlbumsRow(title, rowContent);
-           rowContent='';
+           pageContent.innerHTML = pageContentHTML;
+           pageContentHTML = `<a class="cardBg" href="#"><div class="card" style="width: 100px !important">
+           <img
+             class="card-img-top-recently"
+             src="/Assets/log.jfif"
+             alt="Card image cap"
+           />
+           <div class="card-body-recently">
+             <h5 class="card-title">${albums.title}</h5>
+             <p class="card-text-recently">Wrath</p>
+           </div>
+         </div>
+       </div></a>`
         });
-        pageContent.innerHTML = pageContentHTML;
-        console.log(albums);
-      });
-    };
+      };
 
     
-
-
 
 
 
