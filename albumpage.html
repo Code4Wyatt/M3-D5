@@ -17,15 +17,11 @@
 </head>
 
 <body>
-
-    <div>
-
+    
+    <div> 
+        <button onclick="callme()">call me</button>
         <div class="wrapper">
-
-
             <!-- sidebar -->
-
-
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <img src="./Assets/Spotify_Logo_RGB_White.png" class="img-fluid text-light" width="100px" alt="">
@@ -147,14 +143,8 @@
                         App</a>
 
             </nav>
-
-
-
             <!-- user/jumbotron -->
-
-
             <div class="container-fluid text-light">
-
                 <div class="d-flex pt-3 flex-wrap justify-content-between">
 
                     <div class="">
@@ -183,22 +173,7 @@
                     </div>
 
                 </div>
-
-                <div class="jumbotron jumbotron-fluid bg-transparent d-flex flex-wrap pt-0">
-
-
-
-                    <div class="d-flex flex-wrap">
-
-                        <img src="./Assets/Bohemian.png" class="shadow-lg p-2 m-2 mb-0" width="200px" alt="">
-                    </div>
-                    <div class="align-self-end">
-                        <p class="lead text-light">Album</p>
-                        <h2 class="display-6">Bohemian Rapsody(The Original Soundtrack)</h2>
-                        <h6 class="p-1 pl-0" style="font-size: 10px;"><i class="fas fa-lg fa-user-circle"></i><span
-                                class="p-1">Queen</span><span class="text-muted"> . 2018 . 22 songs, 1 hr 19
-                                min</span></h6>
-                    </div>
+                <div id = "display"  class="jumbotron jumbotron-fluid bg-transparent d-flex flex-wrap pt-0">
                 </div>
 
 
@@ -377,23 +352,8 @@
     </div>
 
 
-    <script>
-        const audio = new Audio("/assets/louis.wav");
-
-        const audio2 = new Audio("/assets/iron.wav");
-
-        const audio3 = new Audio("/assets/The Beatles - Come Together.wav");
-
-        const audio4 = new Audio("/assets/poppacut.wav");
-
-        const audio5 = new Audio("/assets/korn.wav");
-
-        const audio6 = new Audio("/assets/pressure.wav");
-
-
-
-    </script>
-
+    
+    <script src="albumpage.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
