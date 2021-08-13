@@ -32,11 +32,11 @@ function singleAlbum(album) {
     <a class="cardBg" href="artist.html"><div class="card" style="width: 100px !important">
       <img
         class="card-img-top-recently"
-        src="/Assets/falloutboy.png"
+        src="${album.cover}"
         alt="Card image cap"
       />
       <div class="card-body-recently">
-        <h5 class="card-title">Fall Out Boy</h5>
+        <h5 class="card-title">${album.title}</h5>
         <p class="card-text-recently">Greatest Hits</p>
       </div>
     </div></a>
@@ -44,7 +44,9 @@ function singleAlbum(album) {
 }
 
 function AlbumsRow(title, albumsHTML) {
-    return `  <div class="container recentlyPlayedTxt">
+
+
+    return `  <div class="container album-titles">
     <h7>${title}</h7>
   </div>
   <div class="container-fluid-recently recentlyPlayedOptions">
@@ -55,6 +57,8 @@ function AlbumsRow(title, albumsHTML) {
     </div>
   </div>`;
 }
+
+
 
 window.onload = function() {
 
@@ -68,44 +72,25 @@ window.onload = function() {
         let pageContent = document.querySelector(".mainSection");
         let pageContentHTML = "";
         pageContent.childNodes.forEach((node, index) => {
-            if (index !== 0) {
+            if (index !== 1) {
               node.remove();
             }
           });
           albums.forEach((albumResult) => {
-            let rowContent = "";
             const title = albumResult.title;
             const data = albumResult.albums;
-      
-            data.forEach((result) => {
-              const title = result.title_short;
-              const cover = result.album.cover_medium;
-              const id = result.album.id;
-              const album = { cover, title, id };
-              rowContent += SingleAlbum(album);
-            });
-            pageContentHTML += AlbumsRow(title, rowContent);
-            rowContent = "";
+            pageContentHTML += AlbumsRow(title, '');
           });
-          pageContent.innerHTML += pageContentHTML;
+           pageContent.innerHTML = pageContentHTML;
+           console.log(albums);
         });
       };
 
-
-      function search(query) {
-        if (query.length < 3) {
-          filteredBooks = books;
-          displayBooks();
-          return;
-        }
-
-        filteredBooks = books.filter((book) =>
-          book.title.toLowerCase().includes(query.toLowerCase())
-        );
-
-        console.log(filteredBooks);
-        displayBooks(filteredBooks);
-      }
+      const searchBar = document.forms("searchBar").querySelector("input");  // targeted search bar and input field
+      searchBar.addEventListener('keyup', function(e){   // added event listener for each key press/release
+        const term = e.target.value.toLowerCase();       // converted inputed value to lower case
+        const artists = list
+      })
 /** <div class="mainSection">
     <div class="container-fluid">
       <div class="container goodMorningTxt">

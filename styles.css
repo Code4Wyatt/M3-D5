@@ -614,7 +614,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
- .search {
+ .searchDiv {
    z-index: 1;
    position: absolute;
    left: 700px;

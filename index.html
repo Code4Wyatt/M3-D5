@@ -100,8 +100,10 @@
       <img class="logoInstall" src="Assets/output-onlinepngtools (4).png"> <a class="nav-link install" href="#">Install App</a>
     </div>
     </nav>
-    <div class="search">
-      <input type="text" placeholder="Search Artists" oninput="search(this.value)">Blah
+    <div class="searchDiv">
+      <form id="searchBar">
+      <input id="searchbox" type="text" placeholder="Search Artists" oninput="search(this.value)">
+    </form>
     </div>
     <div class="topNav">
       <div class="container-fluid">
@@ -137,11 +139,11 @@
     </div>
     <div class="mainSection">
     <div class="container-fluid">
-      <div class="container goodMorningTxt">
+      <div class="container goodMorningTxt album-titles">
         <h7>Good Morning</h7>
       </div>
     </div>
-    <div class="container-fluid goodMorningOptions">
+    <div class="container-fluid goodMorningOptions albumtitles">
       <div class="row row-cols-5">
         <div class="col-sm col-md-2 col-lg-2 d-flex">
           <a onclick="audio.play ( )" class="cardHover louis" href="#"><div class="card">
@@ -330,14 +332,14 @@
     </div>
   </a>
     <div class="container-fluid">
-      <div class="container recentlyPlayedTxt">
+      <div class="container recentlyPlayedTxt album-titles">
         <h7>Recently Played</h7>
       </div>
       <div class="seeAllRecently">
         <h9><a href="#">See all</a></h9>
       </div>
     </div>
-    <div class="container-fluid-recently showsToTryOptions">
+    <div class="container-fluid-recently showsToTryOptions albumtitles">
       <div class="row row-cols-8">
         <div class="col-sm d-flex">
           <a class="cardBg" href="#"><div class="card" style="width: 100px !important">
@@ -446,7 +448,7 @@
       </div>
     </div>
     <div class="container-fluid">
-      <div class="container showsToTryTxt">
+      <div class="container showsToTryTxt album-titles">
         <h7>Shows to try</h7>
         <p>Podcasts we think you'll get hooked on.</p>
       </div>
