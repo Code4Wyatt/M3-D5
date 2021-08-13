@@ -70,11 +70,11 @@ function search() {
       return `<a class="cardBg" href="#"><div class="card" style="width: 100px !important">
       <img
         class="card-img-top-recently"
-        src="/Assets/log.jfif"
+        src="{${a;n}}"
         alt="Card image cap"
       />
       <div class="card-body-recently">
-        <h5 class="card-title">Lamb of God</h5>
+        <h5 class="card-title">${album.title}</h5>
         <p class="card-text-recently">Wrath</p>
       </div>
     </div>
